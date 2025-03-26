@@ -1,0 +1,9 @@
+.default-color {
+    color: #000000;
+    max-width: 400px;
+}
+
+.other-color {
+    color: #03fc1c;
+    max-width: 400px;
+}
