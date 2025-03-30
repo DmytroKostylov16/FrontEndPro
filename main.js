@@ -4,7 +4,7 @@ const yellowButton = document.querySelector('#yellowButton');
 const redButton = document.querySelector('#redButton');
 
 container.addEventListener('click', (e) => {
-    console.log('Clicked!', e.target);
+    alert(`Clicked on ${e.target.textContent} button!`);
 });
 
 greenButton.addEventListener('click', () => {});
