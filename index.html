@@ -6,8 +6,30 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="form-container">
+        <h2>We would like to help you</h2>
+        <form id="helpForm">
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Name">
+            <span class="error-message" id="error-name"></span>
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="Message"></textarea>
+            <span class="error-message" id="error-message"></span>
+
+            <div class="label">HOW TO ANSWER YOU?</div>
+            <label for="phone"></label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone number">
+            <span class="error-message" id="error-phone"></span>
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email">
+            <span class="error-message" id="error-email"></span>
+
+            <button type="submit" class="submit-btn">Send message</button>
+        </form>
+    </div>
     <script src="main.js"></script>
 
 </body>
