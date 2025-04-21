@@ -1,0 +1,39 @@
+
+.deleteButton{
+    background-color: #13d4a7;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.deleteButton:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition-duration: 0.4s;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    margin-top: 10px;
+}
+
+.addButton{
+    background-color: #13d4a7;
+    border: none;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.addButton:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition-duration: 0.4s;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #808080;
+}
