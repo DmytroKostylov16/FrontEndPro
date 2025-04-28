@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+}
+
+.timerDisplay{
+    font-size: 40px;
+}
+
+.timerButton{
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(23, 205, 16, 0.6);
+    padding: 10px 20px;
+}
