@@ -6,9 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="main.js"></script>
-
+    <div class="formWrapper">
+        <form id="postForm">
+            <input type="text" id="messageTitle" placeholder="Title"/>
+            <textarea id="messageBody" placeholder="Body"></textarea>
+            <button type="button" id="messageButton">Create Post</button>
+        </form>
+        <div id="message"></div>
+        <script src="main.js"></script>
+    </div>
 </body>
 </html>
