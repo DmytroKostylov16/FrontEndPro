@@ -1,0 +1,14 @@
+.checkTask {
+    display: flex;
+    cursor: pointer;
+}
+.checkTask, input {
+    cursor: pointer;
+}
+
+.deleteTaskBtn {
+    cursor: pointer;
+}
+.updateTaskBtn {
+    cursor: pointer;
+}
